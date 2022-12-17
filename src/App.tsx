@@ -1,9 +1,7 @@
-import React from 'react';
+import { Template } from './components/Template';
 
 function App() {
-  return (
-    <h1>salut, France !</h1>
-  );
+  return <Template />;
 }
 
 export default App;
