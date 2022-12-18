@@ -5,15 +5,23 @@
     list-style: none;
 }
 body {
+    height: 100vh;
     font-family: 'Poppins', sans-serif;
-    background-color: rgb(223, 223, 223);
-    color: rgb(53, 53, 53);
+    color: #71797E;
     -webkit-font-smoothing: antialiased;
 }
 body, input, textarea, button {
     font-weight: 400;
     font-size: 1rem;
 }
+
+textarea {
+    font-family: 'Poppins', sans-serif;
+    color: #71797E;
+    -webkit-font-smoothing: antialiased;
+    resize: none;
+}
+
 button {
     cursor: pointer;
 }

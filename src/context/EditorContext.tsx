@@ -17,7 +17,7 @@ interface EditorContextModel {
 export const EditorContext = createContext({} as EditorContextModel)
 
 export const EditorProvider = ({children}: EditorProviderProps) => {
-    const [rawText, setRawText] = useState('Hi! Welcome to the Markdown Editor App!')
+    const [rawText, setRawText] = useState('...see the result here!')
 
     const handleChangeRawInputedText = (inputedText: string) => {
         setRawText(inputedText)
